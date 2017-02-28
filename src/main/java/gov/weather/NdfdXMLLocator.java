@@ -101,7 +101,7 @@ public class NdfdXMLLocator extends org.apache.axis.client.Service implements go
     }
 
     // Use to get a proxy class for ndfdXMLPort
-    private java.lang.String ndfdXMLPort_address = "http://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php";
+    private java.lang.String ndfdXMLPort_address = "https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php";
 
     public java.lang.String getndfdXMLPortAddress() {
         return ndfdXMLPort_address;

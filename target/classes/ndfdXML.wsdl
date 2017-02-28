@@ -416,7 +416,7 @@
         <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
 
         <operation name="NDFDgen">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgen" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgen" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -426,7 +426,7 @@
         </operation>
 
         <operation name="NDFDgenByDay">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgenByDay" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgenByDay" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -436,7 +436,7 @@
         </operation>
 
         <operation name="NDFDgenLatLonList">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgenLatLonList" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgenLatLonList" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -446,7 +446,7 @@
         </operation>
 
         <operation name="NDFDgenByDayLatLonList">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgenByDayLatLonList" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#NDFDgenByDayLatLonList" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -456,7 +456,7 @@
         </operation>
 
         <operation name="GmlLatLonList">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#GmlLatLonList" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#GmlLatLonList" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -466,7 +466,7 @@
         </operation>
 
         <operation name="GmlTimeSeries">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#GmlTimeSeries" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#GmlTimeSeries" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -476,7 +476,7 @@
         </operation>
 
         <operation name="LatLonListSubgrid">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListSubgrid" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListSubgrid" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -486,7 +486,7 @@
         </operation>
 
         <operation name="LatLonListLine">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListLine" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListLine" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -496,7 +496,7 @@
         </operation>
 
         <operation name="LatLonListZipCode">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListZipCode" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListZipCode" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -506,7 +506,7 @@
         </operation>
 
         <operation name="LatLonListSquare">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListSquare" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListSquare" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -516,7 +516,7 @@
         </operation>
 
         <operation name="CornerPoints">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#CornerPoints" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#CornerPoints" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -526,7 +526,7 @@
         </operation>
 
         <operation name="LatLonListCityNames">
-            <soap:operation soapAction="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListCityNames" style="rpc"/>
+            <soap:operation soapAction="https://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl#LatLonListCityNames" style="rpc"/>
             <input>
                 <soap:body use="encoded" namespace="http://graphical.weather.gov/xml/DWMLgen/wsdl/ndfdXML.wsdl" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/>
             </input>
@@ -578,7 +578,7 @@
             returns a list of latitude and longitude values along with a seperate list of city name for those point.</documentation>
 
         <port name="ndfdXMLPort" binding="tns:ndfdXMLBinding">
-            <soap:address location="http://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php"/>
+            <soap:address location="https://graphical.weather.gov/xml/SOAP_server/ndfdXMLserver.php"/>
         </port>
     </service>
 
